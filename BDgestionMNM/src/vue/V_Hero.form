@@ -151,12 +151,14 @@
                   <Component id="txtPtVie" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="lbImage" alignment="3" min="-2" pref="220" max="-2" attributes="0"/>
-                  <Component id="btnImage" alignment="3" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnImage" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="lbImage" min="-2" pref="234" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="32" max="32767" attributes="0"/>
+              <EmptySpace type="separate" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="btnQuitter" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="btnPrecedant" alignment="3" min="-2" max="-2" attributes="0"/>

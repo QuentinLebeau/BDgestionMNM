@@ -238,7 +238,7 @@ public class C_Hero extends C_Abstrait {
                getVue().getLbImage().setIcon(null);
         }else{
             getVue().getLbImage().setText("");
-        Image resizedImage = image.getScaledInstance(getVue().getLbImage().getWidth(), getVue().getLbImage().getHeight(), Image.SCALE_SMOOTH);
+        Image resizedImage = image.getScaledInstance(190, 230, Image.SCALE_SMOOTH);
         ImageIcon icon = new ImageIcon(resizedImage);
 
         getVue().getLbImage().setIcon(icon);
